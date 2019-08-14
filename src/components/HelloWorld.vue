@@ -61,22 +61,22 @@ export default {
     ],
     items: [
       {
-        src: require('../assets/adm-guara.jpg'),
+        src: require('../assets/parceiros/adm-guara.jpg'),
       },
       {
-        src: require('../assets/acig-logo.png'),
+        src: require('../assets/parceiros/acig-logo.png'),
       },
       {
-        src: require('../assets/gdf.png'),
+        src: require('../assets/parceiros/gdf.png'),
       },
       {
-        src: require('../assets/guara50-anos.jpg'),
+        src: require('../assets/parceiros/guara50-anos.jpg'),
       },
       {
-        src: require('../assets/sicoob.png'),
+        src: require('../assets/parceiros/sicoob.png'),
       },
       {
-        src: require('../assets/dyamond.png'),
+        src: require('../assets/parceiros/dyamond.png'),
       },
     ],
     model: null,
