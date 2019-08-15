@@ -17,6 +17,7 @@ export default new Vuetify({
         info: '#E3CD05',
         success: '#00C800',
         warning: '#E03423',
+        darkblue: '#0008AD',
       },
     },
   },

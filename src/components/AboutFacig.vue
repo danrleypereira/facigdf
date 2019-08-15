@@ -1,56 +1,71 @@
 <template>
-  <v-container fluid ma-0 pa-0 class="about-facig">
-    <div class="d-flex flex-column">
-      <h1 class="d-flex justify-center">Sobre a 4ª Edição</h1>
-      <v-flex class="d-flex flex-row justify-center">
-        <h4 class="d-flex align-self-center">da</h4>
+  <v-container fluid ma-0 class="primary about-facig">
+    <div class="d-flex flex-column about-title justify-center">
+      <h1 class="d-flex"><strong>Sobre a 4ª Edição</strong></h1>
+      <v-flex class="d-flex flex-row">
+        <h4 class="align-self-center">da</h4>
         <v-img
           :src="require('../assets/facig-word.png')"
-          height="60"
-          max-height="80"
-          max-width="200"
+          height="70%"
+          max-height="90%"
+          max-width="70%"
           contain
           class=""
         ></v-img>
       </v-flex>
     </div>
-    <div class="">
-      <blockquote class="blockquote text-justify mr-5">Lorem ipsum dolor sit amet, 
+    <div class="about-section">
+      <div class="text-justify paragraph">Lorem ipsum dolor sit amet, 
         consectetur adipisicing elit. Harum maiores modi quidem veniam, 
-        expedita quis laboriosam, ullam facere adipisci, iusto, 
-        voluptate sapiente corrupti asperiores rem nemo numquam 
-        fuga ab at.
-      </blockquote>
-      <blockquote class="blockquote text-justify mr-5">Lorem ipsum dolor sit amet, 
+        expedita quis laboriosam.
+      </div>
+      <div class="text-justify paragraph">Lorem ipsum dolor sit amet, 
         consectetur adipisicing elit. Harum maiores modi quidem veniam, 
-        expedita quis laboriosam, ullam facere adipisci, iusto, 
-        voluptate sapiente corrupti asperiores rem nemo numquam 
-        fuga ab at.
-      </blockquote>
-      <blockquote class="blockquote text-justify mr-5">Lorem ipsum dolor sit amet, 
+        expedita quis laboriosam.
+      </div>
+      <div class="text-justify paragraph">Lorem ipsum dolor sit amet, 
         consectetur adipisicing elit. Harum maiores modi quidem veniam, 
-        expedita quis laboriosam, ullam facere adipisci, iusto, 
-        voluptate sapiente corrupti asperiores rem nemo numquam 
-        fuga ab at.
-      </blockquote>
-      <blockquote class="blockquote text-justify mr-5">Lorem ipsum dolor sit amet, 
+        expedita quis laboriosam.
+      </div>
+      <div class="text-justify paragraph">Lorem ipsum dolor sit amet, 
         consectetur adipisicing elit. Harum maiores modi quidem veniam, 
-        expedita quis laboriosam, ullam facere adipisci, iusto, 
-        voluptate sapiente corrupti asperiores rem nemo numquam 
-        fuga ab at.
-      </blockquote>
-      <blockquote class="blockquote text-justify mr-5">Lorem ipsum dolor sit amet, 
-        consectetur adipisicing elit. Harum maiores modi quidem veniam, 
-        expedita quis laboriosam, ullam facere adipisci, iusto, 
-        voluptate sapiente corrupti asperiores rem nemo numquam 
-        fuga ab at.
-      </blockquote>
+        expedita quis laboriosam.
+      </div>
+      
     </div>
   </v-container>
 </template>
 <style>
   .about-facig {
-    background-color: #FACB11;
+    padding: 40px 5%;
+    color: #FFFFFF;
+  }
+  .about-title  {
+    font-family: 'Geomanist webfont',Arial,sans-serif;
+    font-size: 2vw;
+    line-height: 2vw;
+    margin-bottom: 30px;
+  }
+  @media screen and (max-width: 960px) {
+    .about-title {
+      font-size: 4vw;
+      line-height: 4vw;
+    }
+    .paragraph {
+      font-size: 5vw;
+      line-height: 7vw;
+    }
+  }
+  .about-section {
+    font-family: 'Geomanist webfont',Arial,sans-serif;
+    font-size: 1.7vw;
+    line-height: 3vw;
+    font-weight: 300;
+    text-align: left;
+  }
+  .paragraph {
+    max-width: 650px;
+    margin: 0 30px 20px 30px;
   }
 </style>
 

@@ -26,14 +26,20 @@
 
     <v-content>
       <HelloWorld/>
-      <v-container fluid ma-0 pa-0 xs12 class="d-flex flex-column flex-md-column flex-lg-row flex-xl-row">
-        <v-flex xs12 md12 lg6>
+      <v-container
+        fluid ma-0 pa-0 xs12 md12 
+        class="d-flex flex-column flex-md-row flex-lg-row flex-xl-row"
+      >
+        <v-flex xs12 md7 lg7 class="">
           <AboutFacig/>
         </v-flex>
-        <v-flex xs12 md12 lg6>
+        <v-flex xs12 md5 lg5 flex-column secondary class="">
           <MidiaArticles/>
+          <SocialMidia/>
         </v-flex>
       </v-container>
+      <Apareca/>
+      <Footer/>
     </v-content>
   </v-app>
 </template>
@@ -46,6 +52,9 @@
 import HelloWorld from './components/HelloWorld';
 import AboutFacig from './components/AboutFacig';
 import MidiaArticles from './components/MidiaArticles';
+import SocialMidia from './components/SocialMidia';
+import Footer from './components/Footer';
+import Apareca from './components/Apareca';
 
 export default {
   name: 'App',
@@ -53,6 +62,9 @@ export default {
     HelloWorld,
     AboutFacig,
     MidiaArticles,
+    SocialMidia,
+    Footer,
+    Apareca,
   },
   data: () => ({
     //

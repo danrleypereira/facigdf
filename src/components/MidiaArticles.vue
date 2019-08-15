@@ -14,9 +14,12 @@
           :style="{ 'background-color': article.color}"
         >
           <div
-            :class="`${hover? 'disappear': ''}`"
+            :class="`${hover? 'disappear': ''} d-flex xs12 flex-column`"
+            style="height: 100%"
           >
-            <p class="d-flex align-self-center text-justify font-weight-bold ma-5">
+            <p class="d-flex text-justify align-center font-weight-bold mr-3 ml-3"
+              style="flex: 1"
+            >
               {{article.titulo}}
             </p>
             <h3 class="d-flex justify-center">{{article.name}}</h3>
@@ -32,7 +35,7 @@
               <v-img
                 :src="article.logo"
                 contain
-                height="200px"
+                class="article-img"
               >
               </v-img>
             </a>
@@ -44,15 +47,15 @@
 </template>
 <style>
   .midia-articles {
-    background-color: #E3A005;
-    height: 100%;
     position: relative;
   }
   .article {
-    background-color: #98765f;
     width: 50%;
-    height: 200px;
+    height: 20vh;
     color: antiquewhite;
+  }
+  .article-img {
+    height: 20vh;
   }
   .midia-logo {
     opacity: .5;
@@ -62,6 +65,20 @@
   .disappear {
     opacity: 0;
   }
+  @media screen and (min-width: 960px) {
+    .article {
+      font-size: 1.3vw;
+      line-height: 2vw;
+    }
+  }
+  @media screen and (max-width: 960px) {
+    .article {
+      height: 35vh;
+    }
+    .article-img {
+      height: 35vh;
+    }
+  }
 </style>
 
 <script>
@@ -70,7 +87,7 @@ export default {
     articles: [
       {
         titulo: 'Feira do comércio e indústria do Guará volta nos dias 11, 12 e 13 de outubro e agita a cidade',
-        logo: require('../assets/jornais/gamacidadao-banner.png'),
+        logo: require('../assets/jornais/gamacidadao.jpg'),
         href: 'https://www.gamacidadao.com.br/feira-do-comercio-e-industria-do-guara-volta-nos-dias-11-12-e-13-de-outubro-e-agita-a-cidade/',
         name: 'Gama Cidadão',
         color: '#000000',

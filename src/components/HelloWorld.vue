@@ -10,37 +10,36 @@
       <v-sheet
         class="mx-auto"
         color="accent"
-        max-width="100vw"
+        width="100vw"
       >
-        <v-slide-group multiple show-arrows>
+        <v-slide-group multiple>
           <v-slide-item
             v-for="(item, i) in items"
             :key="i"
             v-slot:default="{ active, toggle }"
           >
             <v-img
-              class="mx-2"
+              class="mx-2 slide-img"
               :src="item.src"
               contain
-              width="20vw"
+              max-width="20vh"
             >
+            <!-- o max-width está relacionado com a altura da tela-->
             </v-img>
-            <!-- <v-btn
-              class="mx-2"
-              :input-value="active"
-              active-class="purple white--text"
-              depressed
-              rounded
-              @click="toggle"
-            >
-              Options {{ n }}
-            </v-btn> -->
           </v-slide-item>
         </v-slide-group>
       </v-sheet>
     </v-layout>
   </v-container>
 </template>
+
+<style>
+  .slide-img {
+  }
+  @media screen and (min-width: 960) {
+
+  }
+</style>
 
 <script>
 export default {
