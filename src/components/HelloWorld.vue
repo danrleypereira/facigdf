@@ -2,7 +2,7 @@
   <v-container fluid ma-0 pa-0>
     <v-layout>
       <v-img
-        :src="require('../assets/facig-capa.jpg')"
+        :src="require('../assets/facig-capa.png')"
         contain
       ></v-img>
     </v-layout>

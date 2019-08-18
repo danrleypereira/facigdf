@@ -15,23 +15,23 @@
       </v-flex>
     </div>
     <div class="about-section">
-      <div class="text-justify paragraph">Lorem ipsum dolor sit amet, 
-        consectetur adipisicing elit. Harum maiores modi quidem veniam, 
-        expedita quis laboriosam.
+      <div class="text-justify paragraph">
+        Facig - Feira de Amostra, Comércio e Indústria do Guará chega 
+        à 4ª edição em outubro nos dias 24 a 27. 
       </div>
-      <div class="text-justify paragraph">Lorem ipsum dolor sit amet, 
-        consectetur adipisicing elit. Harum maiores modi quidem veniam, 
-        expedita quis laboriosam.
+      <div class="text-justify paragraph">
+        Com mais de 30 atrações e expectativa de reunir mais de 40 mil 
+        pessoas, durante quatro dias de feira, a 14ª edição da Facig - 
+        Feira de Amostra, Comércio e Indústria do Guará promete mexer 
+        com a economia formal e criativa, além de palestras, workshops, 
+        oficinas, rodada de negócios, cultura, tecnologia, inovação, 
+        empreendedorismo e exportação de produtos.
       </div>
-      <div class="text-justify paragraph">Lorem ipsum dolor sit amet, 
-        consectetur adipisicing elit. Harum maiores modi quidem veniam, 
-        expedita quis laboriosam.
-      </div>
-      <div class="text-justify paragraph">Lorem ipsum dolor sit amet, 
-        consectetur adipisicing elit. Harum maiores modi quidem veniam, 
-        expedita quis laboriosam.
-      </div>
-      
+      <div class="text-justify paragraph">
+        A expectativa dos comerciantes é que o movimento cresça cerca 
+        de 15% durante os dias de festa. São 176 estandes com estrutura 
+        moderna em uma área de 16 mil metros.
+      </div>      
     </div>
   </v-container>
 </template>

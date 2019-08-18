@@ -86,7 +86,7 @@ export default {
   data: () => ({
     articles: [
       {
-        titulo: 'Feira do comércio e indústria do Guará volta nos dias 11, 12 e 13 de outubro e agita a cidade',
+        titulo: 'Feira do comércio e indústria do Guará volta nos dias 24, 25, 26 e 27 de outubro e agita a cidade',
         logo: require('../assets/jornais/gamacidadao.jpg'),
         href: 'https://www.gamacidadao.com.br/feira-do-comercio-e-industria-do-guara-volta-nos-dias-11-12-e-13-de-outubro-e-agita-a-cidade/',
         name: 'Gama Cidadão',
