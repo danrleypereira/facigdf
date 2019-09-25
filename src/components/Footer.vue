@@ -42,7 +42,7 @@
     <v-divider></v-divider>
     <v-flex fluid ma-0 xs12 md12 lg12>
       <v-card-actions class="accent justify-center">
-        {{ new Date().getFullYear() }} 
+        &copy;{{ new Date().getFullYear() }} 
         — Feito por&nbsp;
         <strong>
           <a

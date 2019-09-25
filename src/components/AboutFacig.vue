@@ -16,22 +16,37 @@
     </div>
     <div class="about-section">
       <div class="text-justify paragraph">
-        Facig - Feira de Amostra, Comércio e Indústria do Guará chega 
-        à 4ª edição em outubro nos dias 24 a 27. 
+        VEM AÍ A 4ª Edição da Feira de Amostra, 
+        Comércio e Indústria do Guará - FACIG 
       </div>
       <div class="text-justify paragraph">
-        Com mais de 30 atrações e expectativa de reunir mais de 40 mil 
-        pessoas, durante quatro dias de feira, a 14ª edição da Facig - 
-        Feira de Amostra, Comércio e Indústria do Guará promete mexer 
-        com a economia formal e criativa, além de palestras, workshops, 
-        oficinas, rodada de negócios, cultura, tecnologia, inovação, 
-        empreendedorismo e exportação de produtos.
+        A expectativa é de que ultrapasse a 
+        margem de 1988, com um público de mais de 50 mil pessoas. 
       </div>
       <div class="text-justify paragraph">
-        A expectativa dos comerciantes é que o movimento cresça cerca 
-        de 15% durante os dias de festa. São 176 estandes com estrutura 
-        moderna em uma área de 16 mil metros.
-      </div>      
+        Evento de maior público na história do Guará tem nova edição 
+        após 30 anos. A 4ª Edição, acontecerá entre os dias 24 e 
+        27 de outubro, ao lado do edifício Consei, entre as QEs 
+        19 e 34, a partir das 11h. 
+      </div>
+      <div class="text-justify paragraph">
+        O projeto da reedição foi apresentado pelo presidente 
+        da Associação Comercial e Industrial do Guará (ACIG), 
+        Deverson Lettieri, durante uma reunião com empresários 
+        e representantes do governo.
+      </div>
+      <div class="text-justify paragraph">
+        A Feira terá uma estrutura de quase 17 mil metros e conta 
+        com o apoio de empresas de vários segmentos da cidade, Sebrae, 
+        DER, GDF, Secretaria de Cultura e Administração Regional do 
+        Guará. A festa também conta com apresentações culturais, 
+        música, dança, artesanato e gastronomia!
+      </div>
+      <div class="text-justify paragraph">
+        O foco do evento é a promoção do empreendedorismo 
+        local, bem como o resgate da memória afetiva da cidade, 
+        afinal, a FACIG é um evento já conhecido na cidade. 
+      </div>
     </div>
   </v-container>
 </template>

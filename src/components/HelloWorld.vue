@@ -60,13 +60,16 @@ export default {
     ],
     items: [
       {
-        src: require('../assets/parceiros/adm-guara.jpg'),
-      },
-      {
         src: require('../assets/parceiros/acig-logo.png'),
       },
       {
+        src: require('../assets/parceiros/adm-guara.jpg'),
+      },
+      {
         src: require('../assets/parceiros/gdf.png'),
+      },
+      {
+        src: require('../assets/parceiros/IADES-BRASIL.png'),
       },
       {
         src: require('../assets/parceiros/guara50-anos.jpg'),
@@ -77,6 +80,16 @@ export default {
       {
         src: require('../assets/parceiros/dyamond.png'),
       },
+      {
+        src: require('../assets/parceiros/logo-gama-cidadao.png'),
+      },
+      {
+        src: require('../assets/parceiros/logo-morgganas.png'),
+      },
+      {
+        src: require('../assets/parceiros/royal.png'),
+      },
+      
     ],
     model: null,
   }),
